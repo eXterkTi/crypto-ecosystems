@@ -1,41 +1,20 @@
 # Ecosystem Level Information
-title = "Meson"
+title = "Meson.Fi"
 
-sub_ecosystems = []
+# Sub Ecosystems
+# These are the titles of other ecosystems in different .toml files in the /data/ecosystems directory
+sub_ecosystems = [ "Lightning", "RSK Smart Bitcoin", "ZeroNet"]
 
-github_organizations = ["https://github.com/MesonFi"]
+# GitHub Organizations
+# This is a list of links to associated GitHub organizations.
+github_organizations = ["https://github.com/mesonfi"]
 
 # Repositories
-[[repo]]
-url = "https://github.com/MesonFi/allsto-tg-bot"
-
-[[repo]]
-url = "https://github.com/MesonFi/aptos-wallet-adapter"
-
-[[repo]]
-url = "https://github.com/MesonFi/bot-telegram-helper"
-
-[[repo]]
-url = "https://github.com/MesonFi/meson-contracts-aptos"
-
-[[repo]]
-url = "https://github.com/MesonFi/meson-contracts-solana-rust"
-missing = true
-
+# These are structs including a url and tags for a git repository. These URLs do not necessarily have to be on GitHub.
 [[repo]]
 url = "https://github.com/MesonFi/meson-contracts-solidity"
-
-[[repo]]
-url = "https://github.com/MesonFi/meson-contracts-sui"
+tags = [ "Protocol"]
 
 [[repo]]
 url = "https://github.com/MesonFi/meson-explorer"
-
-[[repo]]
-url = "https://github.com/MesonFi/meson-to"
-
-[[repo]]
-url = "https://github.com/MesonFi/meson-to-demo"
-
-[[repo]]
-url = "https://github.com/MesonFi/meson-to-demo-vue"
+tags = [ "Block Explorer"]
